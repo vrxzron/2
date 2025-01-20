@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    background-color: grey;
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 20px auto;
+    background: grey;
+    border: 3px solid black;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: lightgray;
+    border-bottom: 2px solid black;
+}
+
+.photo {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+}
+
+.header h1 {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.header p {
+    margin: 0;
+    font-size: 14px;
+    color: black;
+}
+
+.mycointaner {
+    display: flex;
+    
+}
+
+.left-section, .right-section {
+    width: 50%;
+    padding: 20px;
+}
+
+.left-section {
+    border-right: 2px solid black;
+}
+
+.class h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 5px;
+}
+
+ul {
+    margin: 0;
+    padding: 0 0 0 20px;
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 5px;
+}
